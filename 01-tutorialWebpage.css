@@ -1,0 +1,131 @@
+body{
+    background-image: url('4-assets/admechbackground2.png');
+    background-attachment: fixed;
+}
+
+/* header{
+    height: 500px;
+    background: url(https://1d4chan.org/images/c/c4/AdMech_Flag.jpg);
+    background-size: 100%;
+} */
+
+#logo{
+    top: 0;
+    left: 0;
+}
+
+#doctrinaMaterium{
+    font-family: 'Source Code Pro', monospace;
+    background:rgb(0, 0, 0, 0.9);
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightgreen;
+    margin: 0 10vw;
+    padding:10px 0;
+}
+
+#scriptoriusPrimum{
+    margin: 0 2.5vw;
+    padding: 5px;
+}
+
+a:link{
+    color: black;
+    -webkit-text-fill-color: black; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightgreen;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+    -webkit-text-fill-color: black; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: green;
+}
+
+a:active{
+    text-decoration: underline;
+    color: black;
+    -webkit-text-fill-color: black; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: green;
+}
+
+img{
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#navbar{
+    background: url(./4-assets/mechnavbar.jpg);
+    width: 130px;
+    height: 180px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: green;
+    border: 3px solid black;
+    border-radius: 15%;
+    padding: 10px;
+    cursor: pointer;
+    list-style-image: url('4-assets/skullicon.png');
+}
+
+#cogiQuan1{
+    margin: 0 2.5vw;
+    padding: 5px;
+    border-top: 3px double darkslategray;
+    border-right: 3px double darkslategray;
+    border-bottom: 3px double darkslategray;
+    border-left: 10px solid rgb(17, 17, 17);
+}
+
+#cogiQuan2{
+    margin: 0 2.5vw;
+    padding: 5px;
+    border-top: 3px double darkslategray;
+    border-right: 3px double darkslategray;
+    border-bottom: 3px double darkslategray;
+    border-left: 10px solid rgb(17, 17, 17);
+}
+
+#cogiQuan3{
+    margin: 0 2.5vw;
+    padding: 5px;
+    border-top: 3px double darkslategray;
+    border-right: 3px double darkslategray;
+    border-bottom: 3px double darkslategray;
+    border-left: 10px solid rgb(17, 17, 17);
+}
+
+footer{
+    border-left: 5px solid rgb(17, 17, 17);
+    font-family: 'Source Code Pro', monospace;
+    background: rgb(0, 0, 0, 0.9);
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightgreen;
+    bottom: 0;
+    border: 5px solid black;
+    text-align: center;
+    margin: 0 10vw;
+    padding:10px 0;
+}
+
+#tFTD{
+    border: 3px double lightgreen;
+    margin: auto;
+    padding: auto; 
+}
